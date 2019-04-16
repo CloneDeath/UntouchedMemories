@@ -15,8 +15,12 @@ _global_script_class_icons={
 
 [application]
 
-config/name="UntouchedMemories"
+config/name="Untouched Memories"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "MagicaVoxel_Importer_with_Extensions" )
 
 [rendering]
 

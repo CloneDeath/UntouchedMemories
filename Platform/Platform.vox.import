@@ -1,0 +1,14 @@
+[remap]
+
+importer="MagicaVoxel.With.Extensions"
+type="Mesh"
+path="res://.import/Platform.vox-aa8ec2cf3a29aa56c78ebb98ec83b5b9.mesh"
+
+[deps]
+
+source_file="res://Platform/Platform.vox"
+dest_files=[ "res://.import/Platform.vox-aa8ec2cf3a29aa56c78ebb98ec83b5b9.mesh" ]
+
+[params]
+
+Scale=0.063
