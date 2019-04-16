@@ -14,3 +14,4 @@ func _process(_delta):
 func move(dt):
 	$Current.get_platform().kill();
 	$Tween.move(dt);
+	$Animation.play("jump");
