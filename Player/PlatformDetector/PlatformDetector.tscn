@@ -6,6 +6,7 @@
 radius = 0.201764
 
 [node name="PlatformDetector" type="Area"]
+collision_layer = 0
 script = ExtResource( 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="."]

@@ -1,6 +1,7 @@
 extends Spatial
 
 func _process(_delta):
+	if ($Tween.is_moving()): return;
 	if $Right.exists() && Input.is_action_just_pressed("move_right"):
 		move(Vector3.RIGHT);
 	if $Left.exists() && Input.is_action_just_pressed("move_left"):
@@ -11,5 +12,5 @@ func _process(_delta):
 		move(Vector3.BACK);
 
 func move(dt):
-	$Current.get_platform().queue_free();
-	translation += dt;
+	$Current.get_platform().kill();
+	$Tween.move(dt);
